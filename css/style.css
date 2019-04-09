@@ -49,8 +49,10 @@ body {
   background-size: cover; }
 
 .about-img {
+  background: url("../img/image4.jpg");
   width: 400px;
-  height: 400px; }
+  height: 400px;
+  background-size: cover !important; }
 
 .navbar {
   background: #212922 !important;
