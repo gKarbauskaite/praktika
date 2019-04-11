@@ -1,8 +1,7 @@
 $raisin: #212922;
-$citrus: #f7ca44;
-$pale-green: #55a44e;
-$kombu: #3d262a;
-$nature: #6c476e;
+$mint: #aef6c7;
+$feldgrau: #3e6259;
+$kombu-green: #294936;
 
 body {
   overflow-x: hidden;
@@ -43,6 +42,9 @@ body {
 #about-header {
   height: 300px;
   background: url("../img/image1.jpg"), rgba(98, 199, 133, 0.2);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
   border-bottom: 5px #eee solid;
   padding-top: 50px;
   background-size: cover;
@@ -52,6 +54,9 @@ body {
   height: 300px;
   background: url("https://images.unsplash.com/photo-1485583739365-e768c38621b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"),
     rgba(98, 199, 133, 0.2);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
   border-bottom: 5px #eee solid;
   padding-top: 50px;
   background-size: cover;
@@ -65,24 +70,24 @@ body {
 }
 
 .navbar {
-  background: $kombu !important;
+  background: $raisin !important;
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
   .navbar-brand {
-    color: #f7ca44 !important;
+    color: #aef6c7 !important;
   }
 
   .nav-item {
     .nav-link {
-      color: #f7ca44 !important;
+      color: #aef6c7 !important;
     }
   }
 }
 
 .nav-item.active {
-  border-left: #f7ca44 1px solid !important;
+  border-left: #aef6c7 1px solid !important;
 }
 
 .carousel-inner {
@@ -95,7 +100,7 @@ body {
 #articles-cards {
   .card {
     border-radius: 10px !important;
-    border-color: $citrus !important;
+    border-color: $mint !important;
     h6 {
       font-weight: 400;
     }
@@ -107,19 +112,19 @@ body {
   width: 346px !important;
   height: 240px !important;
   border-radius: 10px !important;
-  border: $citrus 2px solid;
+  border: $mint 2px solid;
 }
 .custom-card-image2 {
   background: url("../img/image1.jpg");
   width: 346px !important;
   height: 240px !important;
   border-radius: 10px !important;
-  border: $citrus 2px solid;
+  border: $mint 2px solid;
 }
 .custom-card-image3 {
   background: url("../img/image1.jpg");
   width: 346px !important;
   height: 240px !important;
   border-radius: 10px !important;
-  border: $citrus 2px solid;
+  border: $mint 2px solid;
 }
